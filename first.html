@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+</head>
+<style>
+    h1{
+        color: brown;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    p{
+        font-size: 50px;
+    }
+    
+    body{
+        background-color: beige;
+        background-image:url('https://media.istockphoto.com/id/691275616/photo/light-wooden-reception-armchair-side.jpg?s=612x612&w=0&k=20&c=KS5wvxszFVcKECul2c9VrcqA-rlbwCPqirHQGjNvPoY=') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    button{
+        background-color:lightcoral;
+        text-align: center;
+        border: 30px;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    button:hover{
+        background-color:mediumpurple;
+    }
+</style>
+<body>
+    <b><h1>Welcome!!!!</h1></b>
+    <p id="demo"><b>Welcome to our Website!!!!</b></p>
+    <center>
+        <button onclick="buttontype()"> Click Me....!</button>
+    </center>
+
+<script>
+    function buttontype(){
+        document.getElementById('demo').innerHTML="Glad to Welcome our Website!!<br>Happy Evening!!";
+    }
+</script>
+
+   
+    
+</body>
+</html>
